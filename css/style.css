@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  animation: changeBg 9s infinite alternate linear;
+}
+
+@keyframes changeBg {
+  0% {
+    background: #FFFFFF;
+  }
+  25% {
+    background: #F2AE4D;
+  }
+  50% {
+    background: #F2AE4D;
+  }
+  75% {
+    background: #FFFFFF;
+  }
+  100% {
+    background: #F2AE4D;
+  }
+}
+#header {
+  padding: 30px 0;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+#header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .navbar--nav a {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 0 20px;
+}
+#header .navbar--icon {
+  display: flex;
+  align-items: center;
+}
+#header .navbar--icon a {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #011F3A;
+  padding: 0 5px;
+}
+
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 140px 0;
+}
+#hero .hero--block h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #011F3A;
+}
+#hero .hero--block p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #011F3A;
+  padding-top: 20px;
+}
+#hero .hero--block button {
+  padding: 10px 30px;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 20px;
+  border: none;
+}
+
+#shop {
+  background: #3D5675;
+}
+#shop .shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
