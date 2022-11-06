@@ -11,22 +11,5 @@ a{
 }
 
 body{
-    animation: changeBg 9s infinite alternate linear;
-  }
-  @keyframes changeBg {
-    0%{
-      background: #FFFFFF;
-    }
-    25%{
-      background: #F2AE4D;
-    }
-    50%{
-      background: #F2AE4D;
-    }
-    75%{
-      background: #FFFFFF;
-    }
-    100%{
-      background: #F2AE4D;
-    }
+background: #EEEEEE;
 }
